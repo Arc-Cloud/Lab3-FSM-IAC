@@ -7,7 +7,6 @@ module clktick #(
   input  logic             en,       // enable signal
   input  logic [WIDTH-1:0] N,     	 // clock divided by N+1
   output logic  		       tick,     // tick output
-  output logic [7:0] 	     data_out  // data output
 );
 
 logic [WIDTH-1:0] count;
